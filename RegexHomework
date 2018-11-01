@@ -1,0 +1,7 @@
+1. Using ^ inside of a character set will catch any characters that do not have any of the letters inside the square brackets , after the ^. Ex: /[^rt]ap/ won't catch "rap" or "tap" but it will catch "cap".
+
+2. {N,} matches AT LEAST N amount of what ever character you put in front of it. 
+
+3. {N,M} matches AT LEAST N amount and AT MOST M amount of what ever character you put in front of the curly bracket. 
+
+4. Great Article! 
